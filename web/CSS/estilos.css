@@ -1,0 +1,258 @@
+
+#fotoperfil{
+    width:200px;
+    height:200px;
+    border-radius:160px;
+    border:10px solid #666;
+}
+#formpdf{
+    width: 890px;
+    height: 300px;
+    text-align: center;   
+}
+#formpdf input{
+    font-family: monospace;
+        font-size: 150%;
+        text-align:center;
+        margin-left: 50px;
+        width: 750px;
+}
+#formhojadevida{
+    width: 890px;
+    height: 290px;
+    text-align: left; 
+}
+#formarchivos{
+    width: 890px;
+    height: 620px;
+    text-align: left; 
+}
+select{
+   font-family: monospace;
+        font-size: 150%;
+        text-align:center;
+        margin-left: 50px;
+        width: 750px; 
+}
+#formarchivos input{
+     font-family: monospace;
+        font-size: 150%;
+        text-align:center;
+        margin-left: 50px;
+        width: 750px;
+}
+#formeditasp{
+     width: 890px;
+     height: 380px;
+     text-align: center;
+}
+#formeditasp input{
+     font-family: monospace;
+        font-size: 150%;
+        text-align:center;
+        margin-left: 50px;
+        width: 750px;
+}
+iframe{
+    background-color: url(fondo.png);
+    display:block; 
+    display:block; 
+    width:100%; 
+    border:none;
+    height: 1000px;
+    border-radius: 20px;
+    border-top: 20px;
+}
+body{
+background-image: url(fondo.png);
+ackground-image: no-repeat;
+background-image: fixed;
+background-image: center;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+nav{
+ text-align: center;
+ background-color: #1b8939;
+ border-radius: 15px;
+ border-left: 50px;
+}
+nav ul{
+   display: inline-block;
+   isplay: inline;
+  overflow: hidden;  
+  margin: 0;
+ padding: 0;
+}
+nav li{
+   float: left;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+}
+nav li a{
+   display: block; /* Convertimos los elementos a en elementos bloque para manipular el padding */
+  padding: 20px;
+  color: #fff;
+  text-decoration: none;
+}
+nav li a:hover{
+    background: #3ead47; 
+}
+form{
+	width:300px;
+	padding:16px;
+	border-radius:10px;
+	margin:auto;
+        background-color:mintcream;
+        margin-top: 250px;
+        margin-bottom: 50px;
+}
+h1{
+    font-size: 150%;
+}
+#formdatosasp1{
+     width:950px;
+     height: 470px;
+	padding:16px;
+	border-radius:10px;
+        background-color:mintcream;
+          margin-top: 10px;
+}
+
+#formdatoscoor1{
+      width:850px;
+     height: 250px;
+	padding:16px;
+	border-radius:10px;
+        background-color:mintcream;
+          margin-top: 10px;
+}
+#formdatoscoor{
+    width:850px;
+     height: 625px;
+	padding:16px;
+	border-radius:10px;
+        background-color:mintcream;
+          margin-top: 10px;
+}
+#formdatoscoor label{
+    width:1050px;
+	padding:16px;
+        margin-top: 10px;
+        margin-left: 250px;
+        text-align: left;
+}
+#formdatoscoor input{
+    font-family: monospace;
+        font-size: 150%;
+        text-align:center;
+        margin-left: 50px;
+        width: 750px;;
+}
+#formregistro{
+        width:850px;
+	padding:16px;
+	border-radius:10px;
+	
+        background-color:mintcream;
+        margin-top: 10px;
+        height: 1700px;
+	
+}
+#formregistro select{
+    margin-left: 50px;
+}
+#formregistro label{
+        width:1050px;
+	padding:16px;
+        margin-top: 10px;
+        margin-left: 250px;
+        text-align: left;
+}
+#formregistro input{
+        font-family: monospace;
+        font-size: 150%;
+        text-align:center;
+        margin-left: 50px;
+        width: 750px;
+}
+#formdatosasp{
+        width:1050px;
+	padding:16px;
+	border-radius:10px;
+	
+        background-color:mintcream;
+        margin-top: 10px;
+        height: 2500px;
+	
+}
+#formdatosasp select{
+    margin-left: 50px;
+}
+#formdatosasp label{
+        width:1050px;
+	padding:16px;
+        margin-top: 10px;
+        margin-left: 250px;
+        text-align: left;
+}
+#formdatosasp input{
+        font-family: monospace;
+        font-size: 150%;
+        text-align:center;
+        margin-left: 200px;
+        width: 750px;
+}
+form label{
+	width:72px;
+        text-align: center;
+	font-weight:bold;
+	display:inline-block;
+}
+input{
+   margin-left: 50px;
+   border-radius:10px;
+   size: 28px;
+   border: 0;
+   
+    background-color: darkgray;
+}
+a{
+    color: black;
+    margin-left: 100px;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+input[type="submit"]{
+  text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: white;
+    background-color: darkgray;
+    border-radius: 6px;
+    border: 2px solid darkslategray;
+   margin-left: 60px; 
+}
+h4{
+  margin-left: 50px;   
+}
+input[type="submit"]:hover{
+    color:darkslategray;
+    background-color: #ffffff;
+}

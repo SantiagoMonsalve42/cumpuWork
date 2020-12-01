@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>LoginYRegistro</servlet-name>
+        <servlet-class>controlador.LoginYRegistro</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Coordinador</servlet-name>
+        <servlet-class>controlador.Coordinador</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Aspirante</servlet-name>
+        <servlet-class>controlador.Aspirante</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>CargarPdfs</servlet-name>
+        <servlet-class>controlador.CargarPdfs</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LoginYRegistro</servlet-name>
+        <url-pattern>/LoginYRegistro</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Coordinador</servlet-name>
+        <url-pattern>/Coordinador</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Aspirante</servlet-name>
+        <url-pattern>/Aspirante</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>CargarPdfs</servlet-name>
+        <url-pattern>/CargarPdfs</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

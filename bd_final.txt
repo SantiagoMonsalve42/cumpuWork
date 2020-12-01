@@ -1,0 +1,47 @@
+create database extension_ud;
+use extension_ud;
+create table datosAspirante(
+id int AUTO_INCREMENT,
+tipodoc varchar(25) NOT NULL,
+numerodoc int NOT NULL,
+nombre1 varchar(40) NOT NULL,
+nombre2 varchar(40),
+apellido1 varchar(40) NOT NULL,
+apellido2 varchar(40),
+nacionalidad varchar(30) NOT NULL,
+ciudad varchar(25) NOT NULL,
+correo varchar(75) NOT NULL,
+tel_fijo int NOT NULL,
+tel_cel int NOT NULL,
+fecha_nacimiento varchar(40) NOT NULL,
+sexo varchar(10) NOT NULL,
+profesion varchar (100) NOT NULL,
+contraseña varchar(190) NOT NULL,
+PRIMARY KEY(id)
+);
+create table formacionAspirante(
+id_aspirante int NOT NULL,
+formacion_academica varchar(50) NOT NULL,
+titulo1 varchar(35) NOT NULL,
+titulo2 varchar(35),
+descripcion_perfil varchar(50) NOT NULL,
+hoja_de_vida varchar(50),
+foto varchar(50),
+FOREIGN KEY (id_aspirante) REFERENCES datosAspirante(id),
+PRIMARY KEY(id_aspirante)
+);
+create table sesion(
+id int NOT NULL,
+correo varchar(50) NOT NULL,
+clave varchar(200) NOT NULL,
+PRIMARY KEY(id)
+);
+create table coordinadorProyectos(
+id int AUTO_INCREMENT,
+correo varchar(80) not null,
+clave varchar(200) not null,
+nombre varchar(40) not null,
+apellido varchar(40) not null,
+proyecto varchar(50) not null,
+PRIMARY KEY(id)
+);
